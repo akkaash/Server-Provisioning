@@ -18,12 +18,12 @@ key_name = 'demo1'
 
 # reservation = ec2_client.run_instances(image_id=image_id, instance_type=instance_type, key_name=key_name)
 # instance = reservation.instances[0]
+# instance_id = instance.id
 
 instance_id = 'i-268ebeee'
 
 reservations = ec2_client.get_all_reservations(instance_ids=[instance_id])
 
 instance = reservations[0].instances[0]
-assert isinstance(instance, Instance)
 
 pprint(vars(instance))
