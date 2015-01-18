@@ -57,5 +57,5 @@ To view instance information for one or more instance IDs, use the following API
 I then print all the variables associated with this instance using `pprint(vars(instance))`
 
 
-Screen shot of AWS Management Console:
+## Screen shot of AWS Management Console:
 ![Screen shot of AWS Management Console](https://github.ncsu.edu/agoel3/CSC591_DevOps_HW1/raw/master/Content/screen_shot.png)
